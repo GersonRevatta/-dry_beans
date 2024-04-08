@@ -2,9 +2,8 @@
 
 ### Install 
 
-Make sure you have
-Ruby 2.6.8
-Rails 5.2.8.1
+Make sure you have Ruby 2.6.8 && Rails 5.2.8.1
+
 
 After exec 
 
