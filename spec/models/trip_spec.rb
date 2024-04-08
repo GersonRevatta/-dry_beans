@@ -12,5 +12,6 @@ RSpec.describe Trip, type: :model do
 
   describe 'associations' do
     it { is_expected.to belong_to(:route) }
+    it { is_expected.to have_many(:deliveries) }
   end
 end

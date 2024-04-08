@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2024_04_08_154840) do
+ActiveRecord::Schema.define(version: 2024_04_08_161320) do
+
+  create_table "deliveries", force: :cascade do |t|
+    t.text "observation"
+    t.integer "status", default: 0
+    t.string "address"
+    t.integer "trip_id"
+    t.datetime "delivery_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["trip_id"], name: "index_deliveries_on_trip_id"
+  end
 
   create_table "drivers", force: :cascade do |t|
     t.string "name"
