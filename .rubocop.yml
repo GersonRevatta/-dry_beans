@@ -18,3 +18,5 @@ Style/FrozenStringLiteralComment:
     - 'db/schema.rb'
 Style/Documentation:
   Enabled: false
+Metrics/BlockLength:
+  Enabled: false
