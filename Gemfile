@@ -28,7 +28,8 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'active_model_serializers', '~> 0.10.0'
+gem 'rack-cors'
 gem 'rspec-rails'
 
 group :development, :test do
