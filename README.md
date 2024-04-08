@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Install 
 
-Things you may want to cover:
+Make sure you have
+Ruby 2.6.8
+Rails 5.2.8.1
 
-* Ruby version
+After exec 
 
-* System dependencies
+```
 
-* Configuration
+bundle install
+rake db:create 
+rake db:migrate 
+rails s 
 
-* Database creation
+```
 
-* Database initialization
+Exec  specs
 
-* How to run the test suite
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rspec spec
+ 
+```
